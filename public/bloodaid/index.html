@@ -1,0 +1,1856 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BloodAid | Donate Blood, Save Lives</title>
+
+    <meta name="description"
+
+        content="BloodAid connects blood donors with people who need blood. Donate blood and help save lives.">
+
+   <!-- Google Font -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+
+    rel="stylesheet"
+
+>
+
+<!-- Font Awesome -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<!-- Our CSS -->
+
+<link rel="stylesheet" href="style.css">
+<style>
+    .mobile-profile-link { display: none !important; }
+    @media (max-width: 900px) {
+        .mobile-profile-link {
+            display: flex !important;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+</style>
+
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="container nav-container">
+
+            <a href="#home" class="logo">
+
+                <span class="logo-icon">
+
+                    <i class="fa-solid fa-droplet"></i>
+
+                </span>
+
+                <span>Blood<span>Aid</span></span>
+
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+
+                <a href="#home" class="nav-link active">Home</a>
+
+                <a href="#find-blood" class="nav-link">Find Blood</a>
+
+                <a href="#donate" class="nav-link">Donate</a>
+
+                <a href="#requests" class="nav-link">Requests</a>
+
+                <a href="#about" class="nav-link">About</a>
+
+                <!-- Mobile-only account shortcut; label changes with login state. -->
+                <a href="#" class="nav-link mobile-profile-link" id="mobileProfileLink">
+                    <i class="fa-regular fa-user" aria-hidden="true"></i>
+                    <span>Login</span>
+                </a>
+
+            </nav>
+
+            <div class="nav-actions">
+
+                <button class="btn btn-outline" id="loginBtn">
+
+                    <i class="fa-regular fa-user"></i>
+
+                    Login
+
+                </button>
+
+                <a href="#donate" class="btn btn-primary">
+
+                    <i class="fa-solid fa-heart"></i>
+
+                    Become a Donor
+
+                </a>
+
+                <button class="menu-toggle" id="menuToggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-bg-circle circle-one"></div>
+
+            <div class="hero-bg-circle circle-two"></div>
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <div class="hero-badge">
+
+                        <span class="pulse-dot"></span>
+
+                        Every Drop Can Save A Life
+
+                    </div>
+
+                    <h1>
+
+                        Your Blood Can Be
+
+                        <span>Someone's Hope.</span>
+
+                    </h1>
+
+                    <p>
+
+                        BloodAid connects generous blood donors with patients
+
+                        in need. One donation can make a life-changing difference.
+
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#donate" class="btn btn-primary btn-large">
+
+                            <i class="fa-solid fa-hand-holding-heart"></i>
+
+                            Donate Blood
+
+                        </a>
+
+                        <a href="#find-blood" class="btn btn-light btn-large">
+
+                            <i class="fa-solid fa-magnifying-glass"></i>
+
+                            Find Blood
+
+                        </a>
+
+                    </div>
+
+                    <div class="hero-trust">
+
+                        <div class="avatar-group">
+
+                            <span>R</span>
+
+                            <span>A</span>
+
+                            <span>M</span>
+
+                            <span>S</span>
+
+                        </div>
+
+                        <div>
+
+                            <strong>10,000+ Donors</strong>
+
+                            <small>Helping people across communities</small>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="hero-visual">
+
+                    <div class="blood-card">
+
+                        <div class="blood-card-top">
+
+                            <span class="live-status">
+
+                                <span></span>
+
+                                LIVE
+
+                            </span>
+
+                            <i class="fa-solid fa-ellipsis"></i>
+
+                        </div>
+
+                        <div class="blood-drop">
+
+                            <i class="fa-solid fa-droplet"></i>
+
+                            <strong>O+</strong>
+
+                        </div>
+
+                        <h3>Blood Needed</h3>
+
+                        <p>
+
+                            Someone nearby needs your help today.
+
+                        </p>
+
+                        <div class="blood-info">
+
+                            <div>
+
+                                <i class="fa-solid fa-location-dot"></i>
+
+                                <span>Mumbai</span>
+
+                            </div>
+
+                            <div>
+
+                                <i class="fa-regular fa-clock"></i>
+
+                                <span>Urgent</span>
+
+                            </div>
+
+                        </div>
+
+                        <a href="#find-blood" class="card-button">
+
+                            Help Now
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                    <div class="floating-card floating-card-one">
+
+                        <div class="floating-icon">
+
+                            <i class="fa-solid fa-heart"></i>
+
+                        </div>
+
+                        <div>
+
+                            <strong>2,450+</strong>
+
+                            <span>Lives Helped</span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="floating-card floating-card-two">
+
+                        <div class="floating-icon green">
+
+                            <i class="fa-solid fa-check"></i>
+
+                        </div>
+
+                        <div>
+
+                            <strong>Verified</strong>
+
+                            <span>Donors</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= STATS ================= -->
+
+        <section class="stats-section">
+
+            <div class="container stats-grid">
+
+                <div class="stat-card">
+
+                    <div class="stat-icon">
+
+                        <i class="fa-solid fa-users"></i>
+
+                    </div>
+
+                    <div>
+
+                        <h3 class="counter" data-target="10000">0</h3>
+
+                        <p>Registered Donors</p>
+
+                    </div>
+
+                </div>
+
+                <div class="stat-card">
+
+                    <div class="stat-icon">
+
+                        <i class="fa-solid fa-droplet"></i>
+
+                    </div>
+
+                    <div>
+
+                        <h3 class="counter" data-target="8500">0</h3>
+
+                        <p>Blood Donations</p>
+
+                    </div>
+
+                </div>
+
+                <div class="stat-card">
+
+                    <div class="stat-icon">
+
+                        <i class="fa-solid fa-heart"></i>
+
+                    </div>
+
+                    <div>
+
+                        <h3 class="counter" data-target="2450">0</h3>
+
+                        <p>Lives Helped</p>
+
+                    </div>
+
+                </div>
+
+                <div class="stat-card">
+
+                    <div class="stat-icon">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                    </div>
+
+                    <div>
+
+                        <h3 class="counter" data-target="120">0</h3>
+
+                        <p>Partner Centers</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= FIND BLOOD ================= -->
+
+        <section class="section find-section" id="find-blood">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">FIND BLOOD</span>
+
+                    <h2>
+
+                        Find The Right Blood
+
+                        <span>When It Matters.</span>
+
+                    </h2>
+
+                    <p>
+
+                        Search for available blood donors by blood group
+
+                        and location.
+
+                    </p>
+
+                </div>
+
+                <div class="search-box">
+
+                    <div class="form-group">
+
+                        <label for="bloodGroup">
+
+                            <i class="fa-solid fa-droplet"></i>
+
+                            Blood Group
+
+                        </label>
+
+                        <select id="bloodGroup">
+
+                            <option value="">Select Blood Group</option>
+
+                            <option value="A+">A+</option>
+
+                            <option value="A-">A-</option>
+
+                            <option value="B+">B+</option>
+
+                            <option value="B-">B-</option>
+
+                            <option value="AB+">AB+</option>
+
+                            <option value="AB-">AB-</option>
+
+                            <option value="O+">O+</option>
+
+                            <option value="O-">O-</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="location">
+
+                            <i class="fa-solid fa-location-dot"></i>
+
+                            Location
+
+                        </label>
+
+                        <input
+
+                            type="text"
+
+                            id="location"
+
+                            placeholder="Enter city or area">
+
+                    </div>
+
+                    <button class="btn btn-primary search-btn" id="searchBloodBtn">
+
+                        <i class="fa-solid fa-magnifying-glass"></i>
+
+                        Search Donors
+
+                    </button>
+
+                </div>
+
+                <div class="search-results" id="searchResults">
+
+                    <div class="result-message">
+
+                        <i class="fa-solid fa-droplet"></i>
+
+                        <h3>Search for Blood Donors</h3>
+
+                        <p>
+
+                            Select a blood group and enter your location
+
+                            to find available donors.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= DONATE ================= -->
+
+        <section class="section donate-section" id="donate">
+
+            <div class="container donate-container">
+
+                <div class="donate-content">
+
+                    <span class="section-label">BECOME A DONOR</span>
+
+                    <h2>
+
+                        Be The Reason
+
+                        <span>Someone Smiles.</span>
+
+                    </h2>
+
+                    <p>
+
+                        Your decision to donate blood can give someone another
+
+                        chance at life. Register as a donor and become a hero
+
+                        in your community.
+
+                    </p>
+
+                    <div class="benefits">
+
+                        <div class="benefit">
+
+                            <div class="benefit-icon">
+
+                                <i class="fa-solid fa-heart"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h4>Save Lives</h4>
+
+                                <p>Your donation can help patients in need.</p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="benefit">
+
+                            <div class="benefit-icon">
+
+                                <i class="fa-solid fa-users"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h4>Help Your Community</h4>
+
+                                <p>Be there when someone needs blood.</p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="benefit">
+
+                            <div class="benefit-icon">
+
+                                <i class="fa-solid fa-shield-heart"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h4>Safe & Simple</h4>
+
+                                <p>Blood donation is a safe medical process.</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Donor Form -->
+
+                <div class="donor-form-card">
+
+                    <div class="form-header">
+
+                        <div>
+
+                            <span class="section-label">DONOR REGISTRATION</span>
+
+                            <h3>Become a Blood Donor</h3>
+
+                        </div>
+
+                        <div class="form-icon">
+
+                            <i class="fa-solid fa-heart-pulse"></i>
+
+                        </div>
+
+                    </div>
+
+                    <form id="donorForm">
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+
+                                <label for="donorName">Full Name</label>
+
+                                <input
+
+                                    type="text"
+
+                                    id="donorName"
+
+                                    placeholder="Enter your name"
+
+                                    required>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="donorAge">Age</label>
+
+                                <input
+
+                                    type="number"
+
+                                    id="donorAge"
+
+                                    placeholder="Age"
+
+                                    min="18"
+
+                                    max="65"
+
+                                    required>
+
+                            </div>
+
+                        </div>
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+
+                                <label for="donorBloodGroup">Blood Group</label>
+
+                                <select id="donorBloodGroup" required>
+
+                                    <option value="">Select</option>
+
+                                    <option>A+</option>
+
+                                    <option>A-</option>
+
+                                    <option>B+</option>
+
+                                    <option>B-</option>
+
+                                    <option>AB+</option>
+
+                                    <option>AB-</option>
+
+                                    <option>O+</option>
+
+                                    <option>O-</option>
+
+                                </select>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="donorPhone">Phone</label>
+
+                                <input
+
+                                    type="tel"
+
+                                    id="donorPhone"
+
+                                    placeholder="10-digit number"
+
+                                    maxlength="10"
+
+                                    required>
+
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="donorCity">City / Location</label>
+
+                            <input
+
+                                type="text"
+
+                                id="donorCity"
+
+                                placeholder="Enter your location"
+
+                                required>
+
+                        </div>
+
+                        <div class="checkbox-group">
+
+                            <input type="checkbox" id="availability" required>
+
+                            <label for="availability">
+
+                                I agree to be contacted when my blood group
+
+                                is needed.
+
+                            </label>
+
+                        </div>
+
+                        <button type="submit" class="btn btn-primary full-width">
+
+                            <i class="fa-solid fa-user-plus"></i>
+
+                            Register as Donor
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= BLOOD REQUESTS ================= -->
+
+        <section class="section requests-section" id="requests">
+
+            <div class="container">
+
+                <div class="section-heading heading-row">
+
+                    <div>
+
+                        <span class="section-label">URGENT REQUESTS</span>
+
+                        <h2>
+
+                            People Need Your
+
+                            <span>Help.</span>
+
+                        </h2>
+
+                        <p>
+
+                            Respond to nearby blood requests and make a
+
+                            difference.
+
+                        </p>
+
+                    </div>
+
+                    <button class="btn btn-outline" id="viewAllRequests" type="button" aria-expanded="false">
+                        View All <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                    </button>
+
+                </div>
+
+                <div class="request-grid" id="bloodRequestGrid" aria-live="polite">
+                    <div class="requests-state">
+                        <i class="fa-solid fa-spinner fa-spin" aria-hidden="true"></i>
+                        <p>Loading blood requests...</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= HOW IT WORKS ================= -->
+
+        <section class="section how-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">HOW IT WORKS</span>
+
+                    <h2>
+
+                        Donate Blood In
+
+                        <span>3 Simple Steps.</span>
+
+                    </h2>
+
+                    <p>
+
+                        Becoming a blood donor has never been easier.
+
+                    </p>
+
+                </div>
+
+                <div class="steps-grid">
+
+                    <div class="step-card">
+
+                        <div class="step-number">01</div>
+
+                        <div class="step-icon">
+
+                            <i class="fa-solid fa-user-plus"></i>
+
+                        </div>
+
+                        <h3>Register</h3>
+
+                        <p>
+
+                            Create your donor profile with your basic
+
+                            information and blood group.
+
+                        </p>
+
+                    </div>
+
+                    <div class="step-card">
+
+                        <div class="step-number">02</div>
+
+                        <div class="step-icon">
+
+                            <i class="fa-solid fa-calendar-check"></i>
+
+                        </div>
+
+                        <h3>Donate</h3>
+
+                        <p>
+
+                            Find a blood request near you and donate
+
+                            at a verified center.
+
+                        </p>
+
+                    </div>
+
+                    <div class="step-card">
+
+                        <div class="step-number">03</div>
+
+                        <div class="step-icon">
+
+                            <i class="fa-solid fa-heart"></i>
+
+                        </div>
+
+                        <h3>Save A Life</h3>
+
+                        <p>
+
+                            Your donation reaches someone who needs
+
+                            it and helps save a life.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="section about-section" id="about">
+
+            <div class="container about-container">
+
+                <div class="about-visual">
+
+                    <div class="about-card">
+
+                        <i class="fa-solid fa-droplet"></i>
+
+                        <strong>Every Drop</strong>
+
+                        <span>Counts.</span>
+
+                    </div>
+
+                </div>
+
+                <div class="about-content">
+
+                    <span class="section-label">ABOUT BLOODAID</span>
+
+                    <h2>
+
+                        Together We Can
+
+                        <span>Make A Difference.</span>
+
+                    </h2>
+
+                    <p>
+
+                        BloodAid is a blood donation platform designed to
+
+                        connect donors with people who urgently need blood.
+
+                        Our goal is to make finding and donating blood
+
+                        simple, fast and accessible.
+
+                    </p>
+
+                    <div class="about-points">
+
+                        <div>
+
+                            <i class="fa-solid fa-circle-check"></i>
+
+                            <span>Connect donors with patients</span>
+
+                        </div>
+
+                        <div>
+
+                            <i class="fa-solid fa-circle-check"></i>
+
+                            <span>Find blood by group and location</span>
+
+                        </div>
+
+                        <div>
+
+                            <i class="fa-solid fa-circle-check"></i>
+
+                            <span>Support emergency blood requests</span>
+
+                        </div>
+
+                    </div>
+
+                    <a href="#donate" class="btn btn-primary">
+
+                        Join BloodAid
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= CTA ================= -->
+
+        <section class="cta-section">
+
+            <div class="container cta-container">
+
+                <div>
+
+                    <span class="section-label light">MAKE A DIFFERENCE</span>
+
+                    <h2>
+
+                        Someone's Life Could Depend
+
+                        <span>On Your Decision.</span>
+
+                    </h2>
+
+                    <p>
+
+                        Become a blood donor today and help someone
+
+                        get another chance at life.
+
+                    </p>
+
+                </div>
+
+                <a href="#donate" class="btn btn-white">
+
+                    Become a Donor
+
+                    <i class="fa-solid fa-heart"></i>
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo footer-logo">
+
+                    <span class="logo-icon">
+
+                        <i class="fa-solid fa-droplet"></i>
+
+                    </span>
+
+                    <span>Blood<span>Aid</span></span>
+
+                </a>
+
+                <p>
+
+                    Connecting blood donors with people in need.
+
+                    Together, we can save lives.
+
+                </p>
+
+                <div class="social-links">
+
+                    <a href="#" aria-label="Facebook">
+
+                        <i class="fa-brands fa-facebook-f"></i>
+
+                    </a>
+
+                    <a href="#" aria-label="Instagram">
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </a>
+
+                    <a href="#" aria-label="Twitter">
+
+                        <i class="fa-brands fa-x-twitter"></i>
+
+                    </a>
+
+                    <a href="#" aria-label="LinkedIn">
+
+                        <i class="fa-brands fa-linkedin-in"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h4>Platform</h4>
+
+                <a href="#find-blood">Find Blood</a>
+
+                <a href="#donate">Become a Donor</a>
+
+                <a href="#requests">Blood Requests</a>
+
+                <a href="#about">About Us</a>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h4>Support</h4>
+
+                <a href="#">Help Center</a>
+
+                <a href="#">Contact Us</a>
+
+                <a href="#">Privacy Policy</a>
+
+                <a href="#">Terms & Conditions</a>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h4>Emergency</h4>
+
+                <p>
+
+                    Need blood urgently?
+
+                </p>
+
+                <a href="tel:108" class="emergency-number">
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    Emergency: 108
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+                <p>
+
+                    © 2026 BloodAid. College Project.
+
+                    All rights reserved.
+
+                </p>
+
+                <p>
+
+                    Made with <i class="fa-solid fa-heart"></i>
+
+                    to help save lives.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- ================= AUTH MODAL ================= -->
+
+<div class="modal-overlay" id="loginModal">
+
+    <div class="modal">
+
+        <button class="modal-close" id="closeLoginModal" type="button" aria-label="Close dialog">
+
+            ×
+
+        </button>
+
+        <!-- LOGIN -->
+
+        <div id="loginSection">
+
+            <div class="modal-icon">
+
+                <i class="fa-solid fa-user"></i>
+
+            </div>
+
+            <h2>Welcome Back</h2>
+
+            <p>Login to your BloodAid account.</p>
+
+            <form id="loginForm">
+
+                <div class="form-group">
+
+                    <label for="loginEmail">Email</label>
+
+                    <input type="email" id="loginEmail" placeholder="Enter your email" required>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="loginPassword">Password</label>
+
+                    <input type="password" id="loginPassword" placeholder="Enter your password" required>
+
+                </div>
+
+                <button type="submit" class="btn btn-primary full-width">
+
+                    <i class="fa-solid fa-right-to-bracket"></i>
+
+                    Login
+
+                </button>
+
+            </form>
+
+            <p style="margin-top:18px;text-align:center;">
+
+                Don't have an account?
+
+                <button type="button" id="showSignupBtn" style="border:none;background:none;color:#e63946;font-weight:700;cursor:pointer;">
+
+                    Create Account
+
+                </button>
+
+            </p>
+
+        </div>
+
+        <!-- SIGNUP -->
+
+        <div id="signupSection" style="display:none;">
+
+            <div class="modal-icon">
+
+                <i class="fa-solid fa-user-plus"></i>
+
+            </div>
+
+            <h2>Create Account</h2>
+
+            <p>Join BloodAid and help save lives.</p>
+
+            <form id="signupForm">
+
+                <div class="form-group">
+
+                    <label for="signupName">Full Name</label>
+
+                    <input type="text" id="signupName" placeholder="Enter your full name" required>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="signupEmail">Email</label>
+
+                    <input type="email" id="signupEmail" placeholder="Enter your email" required>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="signupPhone">Phone</label>
+
+                    <input type="tel" id="signupPhone" placeholder="10-digit mobile number" maxlength="10" required>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="signupPassword">Password</label>
+
+                    <input type="password" id="signupPassword" placeholder="Create a password" minlength="6" required>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="signupCity">City</label>
+
+                    <input type="text" id="signupCity" placeholder="Enter your city" required>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="signupAge">Age</label>
+
+                    <input type="number" id="signupAge" placeholder="Enter your age" min="18" max="65" required>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="signupBloodGroup">Blood Group</label>
+
+                    <select id="signupBloodGroup" required>
+
+                        <option value="">Select Blood Group</option>
+
+                        <option value="A+">A+</option>
+
+                        <option value="A-">A-</option>
+
+                        <option value="B+">B+</option>
+
+                        <option value="B-">B-</option>
+
+                        <option value="AB+">AB+</option>
+
+                        <option value="AB-">AB-</option>
+
+                        <option value="O+">O+</option>
+
+                        <option value="O-">O-</option>
+
+                    </select>
+
+                </div>
+
+                <button type="submit" class="btn btn-primary full-width">
+
+                    <i class="fa-solid fa-user-plus"></i>
+
+                    Create Account
+
+                </button>
+
+            </form>
+
+            <p style="margin-top:18px;text-align:center;">
+
+                Already have an account?
+
+                <button type="button" id="showLoginBtn" style="border:none;background:none;color:#e63946;font-weight:700;cursor:pointer;">
+
+                    Login
+
+                </button>
+
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ================= TOAST ================= -->
+
+    <div class="toast" id="toast">
+
+        <div class="toast-icon">
+
+            <i class="fa-solid fa-check"></i>
+
+        </div>
+
+        <div>
+
+            <strong id="toastTitle">Success</strong>
+
+            <p id="toastMessage">Action completed successfully.</p>
+
+        </div>
+
+        <button id="closeToast">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+    </div>
+
+    <!-- Our JavaScript -->
+
+    <script src="script.js"></script>
+
+    <!-- ================= PROFILE MODAL ================= -->
+<div class="modal-overlay" id="profileModal">
+
+    <div class="profile-modal">
+
+        <!-- CLOSE -->
+        <button
+            class="modal-close"
+            id="closeProfileModal"
+            type="button" aria-label="Close dialog"
+        >
+            ×
+        </button>
+
+
+        <!-- PROFILE HEADER -->
+        <div class="profile-header">
+
+            <div class="profile-avatar" id="profileAvatar">
+                R
+            </div>
+
+            <div>
+                <h2 id="profileName">RAFE</h2>
+
+                <span class="profile-status">
+                    <i class="fa-solid fa-circle"></i>
+                    Active Account
+                </span>
+            </div>
+
+        </div>
+
+
+        <div class="profile-divider"></div>
+
+
+        <!-- PERSONAL DETAILS -->
+        <div class="profile-details">
+
+            <div class="profile-detail">
+                <div class="profile-detail-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+
+                <div>
+                    <span>Email</span>
+                    <strong id="profileEmail">-</strong>
+                </div>
+            </div>
+
+
+            <div class="profile-detail">
+                <div class="profile-detail-icon">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+
+                <div>
+                    <span>Phone</span>
+                    <strong id="profilePhone">-</strong>
+                </div>
+            </div>
+
+
+            <div class="profile-detail">
+                <div class="profile-detail-icon">
+                    <i class="fa-solid fa-droplet"></i>
+                </div>
+
+                <div>
+                    <span>Blood Group</span>
+                    <strong id="profileBloodGroup">-</strong>
+                </div>
+            </div>
+
+
+            <div class="profile-detail">
+                <div class="profile-detail-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+
+                <div>
+                    <span>City</span>
+                    <strong id="profileCity">-</strong>
+                </div>
+            </div>
+
+
+            <div class="profile-detail">
+                <div class="profile-detail-icon">
+                    <i class="fa-solid fa-calendar"></i>
+                </div>
+
+                <div>
+                    <span>Age</span>
+                    <strong id="profileAge">-</strong>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- ================= PROFILE ACTIONS ================= -->
+
+        <div class="profile-actions">
+
+            <!-- I NEED BLOOD -->
+            <button
+                type="button"
+                class="profile-action-card profile-action-danger"
+                id="needBloodBtn"
+            >
+
+                <div class="profile-action-icon">
+                    <i class="fa-solid fa-hand-holding-droplet"></i>
+                </div>
+
+                <div class="profile-action-content">
+                    <strong>I Need Blood</strong>
+
+                    <span>
+                        Create a blood request
+                    </span>
+                </div>
+
+                <i class="fa-solid fa-chevron-right action-arrow"></i>
+
+            </button>
+
+
+            <!-- MY REQUEST -->
+            <button
+                type="button"
+                class="profile-action-card"
+                id="myRequestBtn"
+            >
+
+                <div class="profile-action-icon">
+                    <i class="fa-solid fa-clipboard-list"></i>
+                </div>
+
+                <div class="profile-action-content">
+                    <strong>My Blood Request</strong>
+
+                    <span id="myRequestSummary">
+                        No active request
+                    </span>
+                </div>
+
+                <i class="fa-solid fa-chevron-right action-arrow"></i>
+
+            </button>
+
+
+            <!-- RESPONSES -->
+            <button
+                type="button"
+                class="profile-action-card"
+                id="myResponsesBtn"
+            >
+
+                <div class="profile-action-icon">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+
+                <div class="profile-action-content">
+                    <strong>My Donor Responses</strong>
+
+                    <span id="responseCountText">
+                        No responses yet
+                    </span>
+                </div>
+
+                <i class="fa-solid fa-chevron-right action-arrow"></i>
+
+            </button>
+
+
+            <!-- FIND DONOR -->
+            <button
+                type="button"
+                class="profile-action-card"
+                id="findDonorFromProfile"
+            >
+
+                <div class="profile-action-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="profile-action-content">
+                    <strong>Find a Donor</strong>
+
+                    <span>
+                        Search available blood donors
+                    </span>
+                </div>
+
+                <i class="fa-solid fa-chevron-right action-arrow"></i>
+
+            </button>
+
+        </div>
+
+
+        <!-- DONOR STATUS -->
+        <div class="profile-donor-box">
+
+            <div class="donor-check">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div>
+                <strong>BloodAid Donor</strong>
+
+                <span>
+                    Thank you for helping save lives.
+                </span>
+            </div>
+
+        </div>
+
+
+        <!-- LOGOUT -->
+        <button
+            class="profile-logout"
+            id="profileLogoutBtn"
+            type="button"
+        >
+            <i class="fa-solid fa-right-from-bracket"></i>
+            Logout
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- ================= BLOOD REQUEST MODAL ================= -->
+<div class="modal-overlay" id="bloodRequestModal">
+
+    <div class="modal blood-request-modal">
+
+        <button
+            class="modal-close"
+            id="closeBloodRequestModal"
+            type="button" aria-label="Close dialog"
+        >
+            ×
+        </button>
+
+
+        <div class="modal-icon">
+            <i class="fa-solid fa-hand-holding-droplet"></i>
+        </div>
+
+        <h2>I Need Blood</h2>
+
+        <p>
+            Tell us what blood you need and where you need it.
+        </p>
+
+
+        <form id="bloodRequestForm">
+
+            <!-- BLOOD GROUP -->
+            <div class="form-group">
+
+                <label for="requestBloodGroup">
+                    Blood Group
+                </label>
+
+                <select
+                    id="requestBloodGroup"
+                    required
+                >
+                    <option value="">Select Blood Group</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                </select>
+
+            </div>
+
+
+            <!-- UNITS -->
+            <div class="form-group">
+
+                <label for="requestUnits">
+                    Required Units
+                </label>
+
+                <input
+                    type="number"
+                    id="requestUnits"
+                    min="1"
+                    max="10"
+                    placeholder="Example: 2"
+                    required
+                >
+
+            </div>
+
+
+            <!-- CITY -->
+            <div class="form-group">
+
+                <label for="requestCity">
+                    City / Location
+                </label>
+
+                <input
+                    type="text"
+                    id="requestCity"
+                    placeholder="Example: Mumbai"
+                    required
+                >
+
+            </div>
+
+
+            <!-- HOSPITAL -->
+            <div class="form-group">
+
+                <label for="requestHospital">
+                    Hospital
+                </label>
+
+                <input
+                    type="text"
+                    id="requestHospital"
+                    placeholder="Hospital name"
+                    required
+                >
+
+            </div>
+
+
+            <!-- REQUIRED DATE -->
+            <div class="form-group">
+
+                <label for="requestDate">
+                    Required Date
+                </label>
+
+                <input
+                    type="date"
+                    id="requestDate"
+                    required
+                >
+
+            </div>
+
+
+            <!-- URGENCY -->
+            <div class="form-group">
+
+                <label for="requestUrgency">
+                    Urgency
+                </label>
+
+                <select
+                    id="requestUrgency"
+                    required
+                >
+                    <option value="">Select Urgency</option>
+                    <option value="Urgent">Urgent</option>
+                    <option value="Normal">Normal</option>
+                </select>
+
+            </div>
+
+
+            <!-- MESSAGE -->
+            <div class="form-group">
+
+                <label for="requestMessage">
+                    Additional Message
+                </label>
+
+                <textarea
+                    id="requestMessage"
+                    rows="3"
+                    placeholder="Any additional information..."
+                ></textarea>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="btn btn-primary full-width"
+            >
+                <i class="fa-solid fa-paper-plane"></i>
+                Create Blood Request
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+<!-- ================= MY REQUEST MODAL ================= -->
+<div class="modal-overlay" id="myRequestModal">
+
+    <div class="modal blood-request-modal">
+
+        <button
+            class="modal-close"
+            id="closeMyRequestModal"
+            type="button" aria-label="Close dialog"
+        >
+            ×
+        </button>
+
+        <div class="modal-icon">
+            <i class="fa-solid fa-clipboard-list"></i>
+        </div>
+
+        <h2>My Blood Request</h2>
+
+        <p>
+            Your current blood requirement.
+        </p>
+
+        <div id="myRequestDetails"></div>
+
+    </div>
+
+</div>
+
+
+<!-- ================= DONOR RESPONSES MODAL ================= -->
+<div class="modal-overlay" id="myResponsesModal">
+
+    <div class="modal blood-request-modal">
+
+        <button
+            class="modal-close"
+            id="closeMyResponsesModal"
+            type="button" aria-label="Close dialog"
+        >
+            ×
+        </button>
+
+        <div class="modal-icon">
+            <i class="fa-solid fa-users"></i>
+        </div>
+
+        <h2>My Donor Responses</h2>
+
+        <p>
+            Blood requests you have responded to.
+        </p>
+
+        <div id="profileResponsesList"></div>
+
+    </div>
+
+</div>
+
+
+</body>
+
+</html>
